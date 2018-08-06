@@ -1,0 +1,24 @@
+OrdererOrgs:
+  - Name: Orderer
+    Domain: fte.com
+    Specs:
+    - Hostname: Orderer
+PeerOrgs:
+  - Name: Org1
+    Domain: app.fte.com
+    Template:
+      Count: 2
+    Users:
+      Count: 2
+  - Name: Org2
+    Domain: bank.com
+    Template:
+      Count: 2
+    Users:
+      Count: 2
+  - Name: Org3
+    Domain: ship.com
+    Template:
+      Count: 2
+    Users:
+      Count: 2
